@@ -11,15 +11,21 @@ const Index = () => {
         </Text>
         <Text fontSize="xl">Developer | Designer | Tech Enthusiast</Text>
         <Box d="flex" mt={4}>
-          <Button leftIcon={<FaTwitter />} colorScheme="twitter" mr={2}>
-            Twitter
-          </Button>
-          <Button leftIcon={<FaLinkedin />} colorScheme="linkedin" mr={2}>
-            LinkedIn
-          </Button>
-          <Button leftIcon={<FaGithub />} colorScheme="gray">
-            GitHub
-          </Button>
+          <a href="https://twitter.com/blixt" target="_blank" rel="noopener noreferrer">
+            <Button leftIcon={<FaTwitter />} colorScheme="twitter" mr={2}>
+              Twitter
+            </Button>
+          </a>
+          <a href="https://www.linkedin.com/in/andreasblixt" target="_blank" rel="noopener noreferrer">
+            <Button leftIcon={<FaLinkedin />} colorScheme="linkedin" mr={2}>
+              LinkedIn
+            </Button>
+          </a>
+          <a href="https://github.com/blixt" target="_blank" rel="noopener noreferrer">
+            <Button leftIcon={<FaGithub />} colorScheme="gray">
+              GitHub
+            </Button>
+          </a>
         </Box>
       </VStack>
     </Box>
